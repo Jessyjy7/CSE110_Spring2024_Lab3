@@ -1,0 +1,116 @@
+/* General CSS Topics */
+
+/* Color */
+body {
+    color: #333; /* black */
+    background-color: #f4f4f4; /* light gray */
+}
+
+/* CSS Variables & Fallbacks */
+:root {
+    --primary-color: #007bff; /* blue */
+}
+
+a {
+    color: var(--primary-color);
+}
+
+/* Background */
+header {
+    background-color: #ccc; /* light gray */
+}
+
+/* Unit */
+h1 {
+    font-size: 2em; /* relative size */
+}
+
+p {
+    margin: 20px; /* absolute size */
+}
+
+div {
+    padding: 1rem; /* absolute size */
+}
+
+/* Box Model */
+section {
+    margin: 10px; /* longhand */
+    padding: 10px; /* shorthand */
+}
+
+main {
+    border: 1px solid #999; /* border */
+    border-radius: 5px; /* border radius */
+}
+
+/* Text */
+h1 {
+    text-align: center;
+}
+
+p {
+    text-decoration: underline;
+}
+
+/* Display */
+section {
+    display: inline-block; /* inline-block */
+}
+
+ul {
+    display: none; /* none */
+}
+
+/* Sizing */
+img {
+    max-width: 100%; /* max-width */
+}
+
+audio, video {
+    width: 100%; /* width */
+}
+
+/* Position */
+footer {
+    position: sticky; /* sticky */
+    bottom: 0;
+}
+
+form {
+    position: relative; /* relative */
+}
+
+/* Pseudo-class */
+a:hover {
+    color: #ff4500; /* orange */
+}
+
+button:active {
+    background-color: #f0f8ff; /* alice blue */
+}
+
+/* Layouts */
+/* Flexbox */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    flex: 1;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    header {
+        background-color: #f8f9fa; /* adjust header background color */
+    }
+}
+
+/* Fonts */
+body {
+    font-family: 'Roboto', sans-serif; /* use Google Font Roboto */
+}
