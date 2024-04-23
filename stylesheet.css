@@ -3,7 +3,7 @@
 /* Color */
 body {
     color: navy; /* black */
-    background-color: #f4f4f4; /* light gray */
+    background-color: #ead1dc; /* pink */
 }
 
 /* CSS Variables & Fallbacks */
@@ -33,12 +33,14 @@ p {
 }
 
 div {
-    padding: 1rem; /* absolute size */
+    padding: 1rem; /* relative size */
 }
 
 /* Box Model */
 section {
-    margin: 10px; /* longhand */
+    margin-top: 10px; /* longhand */
+    margin: 10px;
+    padding-top: 10px;
     padding: 10px; /* shorthand */
 }
 
@@ -49,7 +51,7 @@ main {
 
 /* Text */
 h1 {
-    text-align: center;
+    text-align: left;
 }
 
 p {
@@ -62,16 +64,16 @@ section {
 }
 
 ul {
-    display: none; /* none */
+    display: block; /* none */
 }
 
 /* Sizing */
 img {
-    max-width: 100%; /* max-width */
+    max-width: 10cm; /* max-width */
 }
 
 audio, video {
-    width: 100%; /* width */
+    width: 80%; /* width */
 }
 
 /* Position */
@@ -98,7 +100,7 @@ button:active {
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 section {
@@ -106,7 +108,7 @@ section {
 }
 
 /* Responsiveness */
-@media (max-width: 768px) {
+@media (30em <= width <= 50em) {
     /* Adjust styles for smaller screens */
     header {
         background-color: #f8f9fa; /* adjust header background color */
