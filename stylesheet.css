@@ -2,7 +2,7 @@
 
 /* Color */
 body {
-    color: #333; /* black */
+    color: navy; /* black */
     background-color: #f4f4f4; /* light gray */
 }
 
@@ -20,7 +20,7 @@ a {
 
 /* Background */
 header {
-    background-color: #ccc; /* light gray */
+    background-color: navy; /* light gray */
 }
 
 /* Unit */
