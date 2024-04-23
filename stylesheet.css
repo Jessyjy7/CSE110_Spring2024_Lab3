@@ -190,10 +190,9 @@ main:has(section) {
 /* Nested Selectors */
 main {
     background-color: #f0f0f0; /* light gray */
-    /* Nested Selector */
-    section {
-        margin-bottom: 20px;
-    }
 }
 
+main section {
+    margin-bottom: 20px;
+}
 
