@@ -8,12 +8,15 @@ body {
 
 /* CSS Variables & Fallbacks */
 :root {
-    --primary-color: #007bff; /* blue */
-/
-
-a {
-    color: var(--primary-color);
+    --primary-color: orange; /* Default primary color */
 }
+
+/* Fallback for browsers that do not support CSS variables */
+a {
+    color: #007bff; /* Fallback color */
+    color: var(--primary-color); /* CSS variable */
+}
+
 
 /* Background */
 header {
