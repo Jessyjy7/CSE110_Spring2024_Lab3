@@ -100,7 +100,7 @@ button:active {
 main {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
 }
 
 section {
@@ -108,7 +108,7 @@ section {
 }
 
 /* Responsiveness */
-@media (30em <= width <= 50em) {
+@media (min-width: 30em) and (max-width: 50em) { /* Use min-width and max-width instead of <= and => */
     /* Adjust styles for smaller screens */
     header {
         background-color: #f8f9fa; /* adjust header background color */
