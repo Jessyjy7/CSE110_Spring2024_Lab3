@@ -7,9 +7,9 @@ body {
 }
 
 /* CSS Variables & Fallbacks */
-:root {
+/*:root {
     --primary-color: #007bff; /* blue */
-}
+/*}
 
 a {
     color: var(--primary-color);
