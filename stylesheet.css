@@ -119,3 +119,81 @@ section {
 body {
     font-family: 'Roboto', sans-serif; /* use Google Font Roboto */
 }
+
+/* Class Selector (.class) */
+.highlight {
+    color: red;
+}
+
+/* ID Selector (#id) */
+#main-heading {
+    font-weight: bold;
+}
+
+/* Universal Selector (*) */
+* {
+    box-sizing: border-box;
+}
+
+/* Element Selector (element) */
+header {
+    text-transform: uppercase;
+}
+
+/* Attribute Selector (e.g. [attribute=foo]) */
+a[href="https://www.youtube.com/watch?v=tlMU0_fetQI&t=15290s"] {
+    font-style: italic;
+}
+
+/* Pseudo-class Selector (e.g. p:hover) */
+button:hover {
+    background-color: blue; 
+}
+
+/* Selector List (element, element) */
+h2, h3 {
+    font-style: italic;
+}
+
+/* Combinators */
+/* Descendant Combinator (element element) */
+main section {
+    border: 1px solid #ccc;
+}
+
+/* Child Combinator (element > element) */
+nav > a {
+    text-decoration: none;
+}
+
+/* General sibling combinator (element ~ element) */
+footer ~ div {
+    margin-top: 20px;
+}
+
+/* Adjacent sibling combinator (element + element) */
+section + hr {
+    margin-top: 20px;
+}
+
+/* Combining Two Selectors (element.class) */
+h1.highlight {
+    color: blue;
+}
+
+/* New Selectors (Adopted in December 2023!) */
+/* :has() Selector */
+main:has(section) {
+    background-color: #ffffcc; /* light yellow */
+}
+
+/* Nested Selectors */
+main {
+    background-color: #f0f0f0; /* light gray */
+    /* Nested Selector */
+    section {
+        margin-bottom: 20px;
+    }
+}
+
+
